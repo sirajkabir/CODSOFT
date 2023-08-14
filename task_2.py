@@ -48,8 +48,8 @@ while True:
         
         # check if user wants another calculation
         # break the while loop if answer is no
-        next_calculation = input("Let's do next calculation? (yes/no): ")
-        if next_calculation == "no":
+        next_calculation = input("Try again? (y/n): ")
+        if next_calculation == "n":
           break
     else:
         print("Invalid Input")
